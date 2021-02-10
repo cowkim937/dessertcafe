@@ -1,5 +1,5 @@
 <template>
-  <v-content id="home">
+  <v-content id="home" max-width="1000px">
     <router-view />
   </v-content>
 </template>

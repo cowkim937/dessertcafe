@@ -21,12 +21,14 @@
         </v-btn>
       </v-card-text>
 
-      <v-card-text class="white--text pt-0"> </v-card-text>
+      <v-card-text class="white--text pt-0">
+          
+      </v-card-text>
 
       <v-divider></v-divider>
 
       <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+        {{ new Date().getFullYear() }} — <strong>Umjirang Dessert Cafe</strong>
       </v-card-text>
     </v-card>
   </v-footer>
@@ -36,8 +38,13 @@
 export default {
   name: "CoreFooter",
   data: () => ({
-    links: ["Home", "About Us", "Team", "Services", "Blog", "Contact Us"],
-    icons: ["mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"],
+    links: [
+      "About",
+      "Map",
+      "Site Map",
+      "Franchisor"
+    ],
+    icons: ["mdi-google","mdi-facebook", "mdi-instagram"],
   }),
 };
 </script>
