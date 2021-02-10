@@ -25,3 +25,7 @@ pnpm-debug.log*
 *.png
 *.ico
 *.svg
+*.xml
+
+# config files
+*.json
