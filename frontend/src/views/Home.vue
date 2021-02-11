@@ -1,8 +1,10 @@
 <template>
-  <div id="home">
+  <v-container id="home"
+    style="max-width: 1000px; margin-top:60px;"> 
+
     <slide-notice />
 
-    <articles>
+    <articles>    
       <banner />
     </articles>
 
@@ -11,7 +13,7 @@
     <subscribe />
 
     <social />
-  </div>
+  </v-container>
 </template>
 
 <script>
@@ -19,11 +21,11 @@
     name: 'Home',
 
     components: {
-      SlideNotice: () => import('@/components/client/Home/SlideNotice'),
-      Articles: () => import('@/components/client/Home/Articles'),
-      Banner: () => import('@/components/client/Home/Banner'),
-      Social: () => import('@/components/client/Home/Social'),
-      Subscribe: () => import('@/components/client/Home/Subscribe'),
+      SlideNotice: () => import('@/components/Client/Home/SlideNotice'),
+      Articles: () => import('@/components/Client/Home/Articles'),
+      Banner: () => import('@/components/Client/Home/Banner'),
+      Social: () => import('@/components/Client/Home/Social'),
+      Subscribe: () => import('@/components/Client/Home/Subscribe'),
     },
   }
 </script>
